@@ -34,8 +34,8 @@
     @before-enter="beforeEnter"
     @enter="enter"
     >
-    <img key="1" data-position="-" src="/images/svg1.png" style="max-width: 900px; min-width:600px" class="w-75 img position-fixed top-0 end-0 z-0" alt="">
-    <img key="2" data-position="+" src="/images/svg2.png" style="max-width: 900px; min-width:600px"  class="w-75 img position-fixed bottom-0 start-0" alt="">
+    <img key="1" data-position="-" src="/images/svg1.png" style="max-width: 900px; min-width:400px" class="w-75 img position-fixed top-0 end-0 z-0" alt="">
+    <img key="2" data-position="+" src="/images/svg2.png" style="max-width: 900px; min-width:400px"  class="w-75 img position-fixed bottom-0 start-0" alt="">
   </transition-group>  
   </div>
   <div class="wrapper z-3">
