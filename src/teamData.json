@@ -3,12 +3,12 @@
       "id": 1,
       "name": "Islam Abu Hilal",
       "role": "CEO-founder",
-      "img": "/images/islamabuhilal.png",
+      "img": "/haseefhub/images/islamabuhilal.png",
       "links": [
         {
           "name": "linked in",
           "url": "https://www.linkedin.com/in/islam-abuhilal/",
-          "img": "/images/linkedin.png"
+          "img": "/haseefhub/images/linkedin.png"
         }
       ],
       "icons": [
@@ -26,22 +26,22 @@
       "id": 2,
       "name": "mohammad abdelhafeed",
       "role": "software Engineer, co-founder",
-      "img": "/images/mohammadabdelhafeed.png",
+      "img": "/haseefhub/images/mohammadabdelhafeed.png",
       "links": [
         {
           "name": "github",
           "url": "https://github.com/Moeabdelhafeed",
-          "img": "/images/github.png"
+          "img": "/haseefhub/images/github.png"
         },
         {
           "name": "linked in",
           "url": "https://www.linkedin.com/in/mohammadabdelhafeed-3a7285283/",
-          "img": "/images/linkedin.png"
+          "img": "/haseefhub/images/linkedin.png"
         },
         {
           "name": "behance",
           "url": "https://www.behance.net/mohammadabdelhafeed",
-          "img": "/images/behance.png"
+          "img": "/haseefhub/images/behance.png"
         }
       ],
       "icons": [
@@ -63,12 +63,12 @@
       "id" : 3,
       "name": "Zaid Al-Qaisi",
       "role": "mechatronics engineer, co-founder",
-      "img": "/images/zaidhussein.png",
+      "img": "/haseefhub/images/zaidhussein.png",
       "links": [
         {
           "name": "linked in",
           "url": "https://www.linkedin.com/in/zaid-alqaisi/",
-          "img": "/images/linkedin.png"
+          "img": "/haseefhub/images/linkedin.png"
         }
       ],
       "icons":[
