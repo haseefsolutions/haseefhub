@@ -9,7 +9,7 @@
     @enter="enter"
             >
            
-            <MemberWidget v-for="(link , index) in member.links" :key="index" :link="link" :data-index="index + 0.5" />
+            <MemberWidget v-for="(link , index) in member.links" :key="index" :link="link" :data-index="index + 1" />
             <div key="social" class="row justify-content-center m-auto mt-3 flex-row" style="width: 200px;" :data-index="member.links.length + 0.5" >
                 <MemberIcon v-for="icon in member.icons" :key="icon.name" :icon="icon"  />
             </div>

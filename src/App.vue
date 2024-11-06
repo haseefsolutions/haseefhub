@@ -23,6 +23,12 @@
         </li>
       </ul>
     </div>
+
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a  aria-current="page" href="https://www.linkedin.com/company/haseef-solutions"> <i style="font-size:25px;" class="nav-link bi bi-linkedin"></i> </a>
+        </li>
+        </ul>
   </div>
 </nav>
     </div>

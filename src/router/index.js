@@ -1,9 +1,10 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import HomeView from '../views/TeamView.vue';
+
 import MemberView from '@/views/MemberView.vue';
 import TeamView from '../views/TeamView.vue';
 import NotFound from '@/views/NotFound.vue';
 import { useTeamStore } from '@/stores/Team';
+import HomeView from '@/views/HomeView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -11,6 +12,11 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
+      component: HomeView,
+    },
+    {
+      path: '/team',
+      name: 'teamview',
       component: TeamView,
     },
     {
