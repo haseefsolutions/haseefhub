@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "name": "Islam Abu Hilal",
+      "role": "CEO-founder",
+      "img": "/images/islamabuhilal.png",
+      "links": [
+        {
+          "name": "linked in",
+          "url": "https://www.linkedin.com/in/islam-abuhilal/",
+          "img": "/images/linkedin.png"
+        }
+      ],
+      "icons": [
+        {
+          "name": "whatsapp",
+          "url": "https://wa.me/962790699176"
+        },
+        {
+          "name": "envelope",
+          "url": "mailto:islam.abuhilal2@hotmail.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "mohammad abdelhafeed",
+      "role": "software Engineer, co-founder",
+      "img": "/images/mohammadabdelhafeed.png",
+      "links": [
+        {
+          "name": "github",
+          "url": "https://github.com/Moeabdelhafeed",
+          "img": "/images/github.png"
+        },
+        {
+          "name": "linked in",
+          "url": "https://www.linkedin.com/in/mohammadabdelhafeed-3a7285283/",
+          "img": "/images/linkedin.png"
+        },
+        {
+          "name": "behance",
+          "url": "https://www.behance.net/mohammadabdelhafeed",
+          "img": "/images/behance.png"
+        }
+      ],
+      "icons": [
+        {
+          "name": "whatsapp",
+          "url": "https://wa.me/962796239902"
+        },
+        {
+          "name": "envelope",
+          "url": "mailto:almormohammad939@gmail.com"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/moe_almor/"
+        }
+      ]
+    },
+    {
+      "id" : 3,
+      "name": "Zaid Al-Qaisi",
+      "role": "mechatronics engineer, co-founder",
+      "img": "/images/zaidhussein.png",
+      "links": [
+        {
+          "name": "linked in",
+          "url": "https://www.linkedin.com/in/zaid-alqaisi/",
+          "img": "/images/linkedin.png"
+        }
+      ],
+      "icons":[
+        {
+          "name": "whatsapp",
+          "url": "https://wa.me/962797953245 "
+        },
+        {
+          "name": "envelope",
+          "url": "mailto:zqaisi2004@gmail.com"
+        }
+      ]
+    }
+   ]
+  
