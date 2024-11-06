@@ -1,17 +1,17 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/TeamView.vue'
-import MemberView from '@/views/MemberView.vue'
-import TeamView from '../views/TeamView.vue'
-import NotFound from '@/views/NotFound.vue'
-import { useTeamStore } from '@/stores/Team'
+import { createRouter, createWebHashHistory } from 'vue-router'; // Switch to hash mode
+import HomeView from '../views/TeamView.vue';
+import MemberView from '@/views/MemberView.vue';
+import TeamView from '../views/TeamView.vue';
+import NotFound from '@/views/NotFound.vue';
+import { useTeamStore } from '@/stores/Team';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL), // Switch to hash history
   routes: [
     {
       path: '/',
       name: 'home',
-      component:  TeamView
+      component: TeamView,
     },
     {
       path: '/team/:id',
@@ -23,17 +23,17 @@ const router = createRouter({
 
         if (memberExists) {
           next();
-        }else{
-         next({name: 'notFound'})
+        } else {
+          next({ name: 'notFound' });
         }
-      }
+      },
     },
     {
-      path:'/:notFound(.*)*',
-      name:'notFound',
-      component: NotFound
-    }
-  ]
-})
+      path: '/:notFound(.*)*',
+      name: 'notFound',
+      component: NotFound,
+    },
+  ],
+});
 
-export default router
+export default router;
