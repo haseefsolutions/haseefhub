@@ -49,6 +49,7 @@ const enter = (el) => {
         </div>
     </div>    
 
+<!-- ahdiahdiahd -->
 
     <div key="3"  data-index="3" class="d-flex justify-content-center">
         <div class="row justify-content-center w-75" data-index="1" style="max-width: 600px; min-width: 400px;">

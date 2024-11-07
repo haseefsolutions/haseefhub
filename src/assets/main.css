@@ -20,7 +20,6 @@ html {
   scrollbar-width: none; 
   background: #191d1c;
 }
-
 .body::-webkit-scrollbar {
   display: none; 
 }
