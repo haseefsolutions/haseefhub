@@ -1,9 +1,27 @@
-.body{
-  background: #191d1c;
-  height: auto;
-  -ms-overflow-style: none;
-  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #191d1c;
+  color: #ffffff;
+}
+
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
 
 
 .navbar .dropdown-menu{
@@ -44,22 +62,6 @@
   color:  rgb(255, 255, 255)  ;
 }
 
-
-
-.snowflake {
-  color: white;
-  font-size: 2em;
-  position: fixed;
-  top: -50px;
-  pointer-events: none;
-  animation: fall linear infinite;
-}
-
-@keyframes fall {
-  to {
-      transform: translateY(100dvh);
-  }
-}
 
 i{
   color: #59585e;
