@@ -47,7 +47,7 @@
     </RouterView>
 
     <transition appear @before-enter="footerBeforeEnter" @enter="footerEnter">
-      <div class="row m-auto text-center position-absolute bottom-0 w-100 text-light">
+      <div class="row z-3 m-auto text-center position-absolute bottom-0 w-100 text-light">
         <p class="mb-4">&#169; Made By Mohammad Abdelhafeed</p>
       </div>
     </transition>
