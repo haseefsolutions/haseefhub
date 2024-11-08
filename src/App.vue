@@ -9,15 +9,15 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item">
+                <RouterLink :to="{name: 'teamview' }" class="nav-link " href="#"  >
                   Our team
-                </a>
-                <ul class="dropdown-menu">
-                  <li v-for="member in team" :key="member.id">
-                    <RouterLink active-class="active" :to="{ name: 'team', params: { id: member.id } }" class="dropdown-item"> {{ member.name }} </RouterLink>
-                  </li>
-                </ul>
+                </RouterLink>
+              </li>
+              <li class="nav-item">
+                <RouterLink :to="{name: 'servicesview' }" class="nav-link " href="#"  >
+                  Our services
+                </RouterLink>
               </li>
             </ul>
             <ul class="navbar-nav ms-auto"> 

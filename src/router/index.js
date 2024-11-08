@@ -5,6 +5,7 @@ import TeamView from '../views/TeamView.vue';
 import NotFound from '@/views/NotFound.vue';
 import { useTeamStore } from '@/stores/Team';
 import HomeView from '@/views/HomeView.vue';
+import ServicesView from '@/views/ServicesView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -18,6 +19,11 @@ const router = createRouter({
       path: '/team',
       name: 'teamview',
       component: TeamView,
+    },
+    {
+      path: '/services',
+      name: 'servicesview',
+      component: ServicesView,
     },
     {
       path: '/team/:id',

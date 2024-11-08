@@ -6,7 +6,7 @@
                     style="height: 80px;">
                     <img :src="member.img" class="position-absolute p-2 h-100 w-auto img-fluid rounded-circle"/>
                     <div class="w-50 mx-auto text-center">
-                        <p style="font-size:15px" class=" mb-0 text-wrap">{{ member.name }} | {{ member.role }}</p>
+                        <p style="font-size:15px" class=" mb-0 text-wrap">{{ member.name }} | {{ member.homerole }}</p>
 
                     </div>
                 </div>

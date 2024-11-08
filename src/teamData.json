@@ -2,7 +2,8 @@
     {
       "id": 1,
       "name": "Islam Abu Hilal",
-      "role": "CEO-founder",
+      "role": "CEO, founder, mechatronics engineer ",
+      "homerole": "CEO, founder",
       "img": "/haseefhub/images/islamabuhilal.png",
       "links": [
         {
@@ -26,6 +27,7 @@
       "id": 2,
       "name": "mohammad abdelhafeed",
       "role": "software Engineer, co-founder",
+      "homerole": "co-founder",
       "img": "/haseefhub/images/mohammadabdelhafeed.png",
       "links": [
         {
@@ -63,6 +65,7 @@
       "id" : 3,
       "name": "Zaid Al-Qaisi",
       "role": "mechatronics engineer, co-founder",
+      "homerole": "co-founder",
       "img": "/haseefhub/images/zaidhussein.png",
       "links": [
         {
@@ -86,6 +89,7 @@
       "id" : 4,
       "name": "Mo'tasem Faous",
       "role": "mechatronics engineer, co-founder",
+      "homerole": "co-founder",
       "img": "/haseefhub/images/motasem.png",
       "links": [
         {
@@ -102,6 +106,50 @@
         {
           "name": "envelope",
           "url": "mailto:motasemfaousju04@gmail.com"
+        }
+      ]
+    },
+    {
+      "id" : 5,
+      "name": "Ahmad Ramadan",
+      "role": "mechatronics engineer, co-founder",
+      "homerole": "co-founder",
+      "img": "/haseefhub/images/ahmadramadan.png",
+      "links": [
+        {
+          "name": "linked in",
+          "url": "https://www.linkedin.com/in/ahmad-ramadan-703889269/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "img": "/haseefhub/images/linkedin.png"
+        }
+      ],
+      "icons":[
+        {
+          "name": "whatsapp",
+          "url": "https://wa.me/962799525741"
+        }
+      ]
+    },
+    {
+      "id" : 5,
+      "name": "Ahmad shabaan",
+      "role": "mechatronics engineer, co-founder",
+      "homerole": "co-founder",
+      "img": "/haseefhub/images/ahmadshabaan.png",
+      "links": [
+        {
+          "name": "linked in",
+          "url": "https://www.linkedin.com/in/ahmed-hassan-02ba71259/",
+          "img": "/haseefhub/images/linkedin.png"
+        }
+      ],
+      "icons":[
+        {
+          "name": "whatsapp",
+          "url": "https://wa.me/9620786870885"
+        },
+        {
+          "name": "envelope",
+          "url": "mailto:ahmad993270@gmail.com"
         }
       ]
     }

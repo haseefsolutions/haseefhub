@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "infrastructure"
+    },
+    {
+        "id": 2,
+        "name": "artificial intelligence"
+    },
+    {
+        "id": 3,
+        "name": "application development"
+    },
+    {
+        "id": 4,
+        "name": "cloud solutions"
+    },
+    {
+        "id": 5,
+        "name": "mixed reality solutions"
+    },
+    {
+        "id": 6,
+        "name": "cybersecurity solutions"
+    },
+    {
+        "id": 7,
+        "name": "IoT and IIoT solutions"
+    }
+]
