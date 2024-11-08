@@ -36,7 +36,7 @@ const enter = (el) => {
   </div>
 
    <div key="2"  data-index="2" class="d-flex justify-content-center">
-        <div class="row justify-content-center w-75" data-index="1" style="max-width: 600px; min-width: 300px;">
+        <div class="row justify-content-center w-75" data-index="1" style="max-width: 600px; min-width: 350px;">
             <RouterLink :to="{name: 'teamview'}" class="link-offset-2 link-underline link-underline-opacity-0">
                 <div id="link" class="d-flex text-center rounded-pill mt-4 text-light align-items-center position-relative"
                     style="height: 80px;">
@@ -50,7 +50,7 @@ const enter = (el) => {
     </div>    
 
     <div key="3"  data-index="3" class="d-flex justify-content-center">
-        <div class="row justify-content-center w-75" data-index="1" style="max-width: 600px; min-width: 300px;">
+        <div class="row justify-content-center w-75" data-index="1" style="max-width: 600px; min-width: 350px;">
               <a href="https://www.linkedin.com/company/haseef-solutions" class="link-offset-2 link-underline link-underline-opacity-0">
               <div  id="link" class="d-flex text-center rounded-pill mt-4 text-light align-items-center position-relative"
                     style="height: 80px;">
