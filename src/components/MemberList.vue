@@ -1,5 +1,5 @@
 <template>
-<div class="col justify-content-center m-auto " style="max-width: 1200px;">
+<div class="col justify-content-center m-auto w-100" style="padding-bottom: 70px;">
     <transitio-group>
        
     
