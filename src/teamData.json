@@ -81,6 +81,29 @@
           "url": "mailto:zqaisi2004@gmail.com"
         }
       ]
+    },
+    {
+      "id" : 4,
+      "name": "Mo'tasem Faous",
+      "role": "mechatronics engineer, co-founder",
+      "img": "/haseefhub/images/motasem.png",
+      "links": [
+        {
+          "name": "linked in",
+          "url": "https://www.linkedin.com/in/mo-tasem-faous-50a77a26a/",
+          "img": "/haseefhub/images/linkedin.png"
+        }
+      ],
+      "icons":[
+        {
+          "name": "whatsapp",
+          "url": "https://wa.me/962790382485"
+        },
+        {
+          "name": "envelope",
+          "url": "mailto:motasemfaousju04@gmail.com"
+        }
+      ]
     }
    ]
   
